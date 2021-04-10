@@ -1,4 +1,4 @@
-[
+const dataProjects = [
     {
         "name": "Quarantinis",
         "description": "Cocktail app, find new cocktail recepies and relax to good muisc.",
@@ -21,3 +21,5 @@
         "imageUrl":"https://mf948.github.io/portfolio/Assets/Images/planner.jpg"
     }
 ]
+
+export default dataProjects

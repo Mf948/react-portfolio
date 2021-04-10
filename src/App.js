@@ -1,17 +1,18 @@
 import React from "react";
-import Sectiontop from "./pages/sectiontop";
-import Wrapper from "./components/Wrapper";
-
+import Contact from "./pages/Contact/contact"
+import Portfolio from "./pages/Portfolio/portfolio";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
  function App() {
   return (
    <div>
     
-    <Sectiontop></Sectiontop>
-
-    <Wrapper>
-
-    </Wrapper>
+    <Router basename={`${process.env.PUBLIC_URL}/`}>
+        <Switch>
+          <Route exact path="/" component={Portfolio} />
+          <Route exact path="/contact" component={Contact} />
+        </Switch>
+    </Router>
 
   </div>
   );

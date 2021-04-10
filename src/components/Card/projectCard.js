@@ -13,16 +13,20 @@ function ProjectCard(props) {
             <strong>Name:</strong> {props.name}
           </li>
           <li>
-            <strong>Occupation:</strong> {props.occupation}
+            <strong>Description:</strong> {props.description}
           </li>
-          <li>
-            <strong>Location:</strong> {props.location}
-          </li>
+  
         </ul>
+        <a
+                className="btn btn-dark col-lg-12 cardBtn"
+                href={props.github}>Github<i className="fas fa-globe-asia cIcon"></i>
+              </a>
+              <a className="btn btn-dark col-lg-12 cardBtn"
+                href={props.app}>Deployed<i className="fab fa-github cIcon"></i>
+              </a>
       </div>
-      <span onClick={() => props.removeFriend(props.id)} className="remove">
-        𝘅
-      </span>
+              
+ 
     </div>
   );
 }
