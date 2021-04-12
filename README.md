@@ -3,7 +3,7 @@
 
 ![frontpage](frontpage.png)
 ![Projects](Projects.png)
-![Contacts](contacts.png)
+![Contacts](Contacts.png)
 
 ## Description
 Updated New react portfolio 
