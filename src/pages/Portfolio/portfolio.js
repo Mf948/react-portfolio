@@ -2,6 +2,7 @@ import React from 'react'
 import NavTabs from '../../components/Nav/sectiontop'
 import ProjectCard from '../../components/Card/projectCard'
 import dataProjects from "../utils/Projects"
+import FooterPage from '../../components/Footer/foot'
 
 
 
@@ -16,6 +17,7 @@ export default function portfolio() {
     description={description}
     github={github}
     app={app}/> ))}
+    <FooterPage></FooterPage>
         </div>
     )
 }
