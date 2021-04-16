@@ -1,6 +1,6 @@
 import React from "react";
-import Contact from "./pages/Contact/contact"
-import Portfolio from "./pages/Portfolio/portfolio";
+import Contact from "./pages/Contact"
+import Portfolio from "./pages/Portfolio";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
  function App() {
